@@ -20,4 +20,14 @@ git push origin master
 
 cd public
 
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg="rebuilding site `date`"
+if [ $# -eq 1 ]
+  then msg="$1"
+fi
+git commit -m "$msg"
+
 git push origin master
