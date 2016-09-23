@@ -17,4 +17,7 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
-git subtree push --prefix=public https://github.com/sonhnguyen/sonhnguyen.github.io.git public
+
+cd public
+
+git push origin master
