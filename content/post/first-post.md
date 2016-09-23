@@ -4,7 +4,7 @@ date = "2016-09-23T16:54:08+07:00"
 draft = false
 slug = "first-post"
 tags = ["tag1", "tag2"]
-title = "first post 2"
+title = "first post hello"
 +++
 
 hello hugo!
@@ -12,7 +12,7 @@ hello hugo!
 ## testing some stuff
 
 ### video
-asdasasd
+
 {{< youtube PDSkFeMVNFs >}}
 
 ### img
